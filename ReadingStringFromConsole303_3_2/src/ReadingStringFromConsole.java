@@ -19,7 +19,7 @@ public class ReadingStringFromConsole {
 //	       System.out.println("s2 is " + s2);
 //	       System.out.println("s3 is " + s3);
 	       
-	       // Example 2: Reading from console
+	       // Example 2: Reading from console and only a single character
 	       System.out.print("Enter a character: ");
 	       String s = input.nextLine();
 	       char ch = s.charAt(0);
