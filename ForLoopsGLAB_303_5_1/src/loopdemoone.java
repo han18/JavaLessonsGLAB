@@ -36,6 +36,20 @@ public class loopdemoone {
 		         System.out.println("Entered string/number isn't a palindrome.");
 		       }
 
+//		       Example 4: Pyramid - PyramidExample
+//		       In this example, we are going to see another application 
+//		       of for loop, which is a nested for loop. A nested for loop refers to a 
+//		       for loop within a for loop.
+		       
+		       for(int i=1;i<=5;i++){
+		    	   for(int j=1;j<=i;j++){
+		    		   for(int k=1; k<=j; k++)
+		    	       System.out.print("* ");
+		    	   }
+		    	   System.out.println();//new line
+		    	  }
+
+
 
 		  }
 
