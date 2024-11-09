@@ -1,9 +1,11 @@
 import java.util.Arrays;
 
-public class lengthDemo {
+public class lengthDemo  {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		// added all the steps here in one class instead of creating multiple projects
 		
 		 String str1 = "Java";
 	        String str2 = "";
@@ -241,9 +243,20 @@ public class lengthDemo {
 		       System.out.println(s1Co.compareTo(s2Co)); //0
 		       System.out.println(s1Co.compareTo(s3Co)); // 1(because s1>s3)
 		       System.out.println(s1Co.compareTo(s4Co)); // -1(because s1<s4 )
+		       
+//		       Suppose s1 and s2 are two String objects. If:
+//		    	   s1 == s2 : The method returns 0.
+//		    	   s1 > s2 : The method returns a positive value.
+//		    	   s1 < s2 : The method returns a negative value.
 
 
+//================================================
 
+// for GitHub commands after init a new reop
+	// one git remote add origin <url> of the new repo
+	// two  git push --set-upstream origin master
+		       
+		       
 
 
 
