@@ -25,6 +25,35 @@ public class arraydemoOne {
 		   for(int i = 0; i < age12.length; i++) {
 		     System.out.println(age12[i]); 
 		   }
+//		   Example 3: Iterating Over an Array using 
+//		   EnhancedForLoop	   
+		   String[] names = { "New York", "Dallas", "Las Vegas", "Florida" };
+           for (String name : names) {
+                 System.out.println(name);
+               }
+//           Example 4: Compute the Sum and Average of Array 
+//           Elements
+
+           int[] numbers = {2, -9, 0, 5, 12, -25, 22, 9, 8, 12};
+           int sum = 0;
+           Double average;
+           
+           // access all elements using for each loop
+           // add each element in sum
+           for (int number: numbers) {
+             sum += number;
+           }
+          
+           // get the total number of elements
+           int arrayLength = numbers.length;
+
+           // calculate the average
+           // convert the average from int to double
+           average =  ((double)sum / (double)arrayLength);
+
+           System.out.println("Sum = " + sum);
+           System.out.println("Average = " + average);
+
 
 
 	}
