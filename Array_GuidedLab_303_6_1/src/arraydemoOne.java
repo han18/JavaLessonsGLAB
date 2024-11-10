@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class arraydemoOne {
 
@@ -54,7 +55,43 @@ public class arraydemoOne {
            System.out.println("Sum = " + sum);
            System.out.println("Average = " + average);
 
+//           Example 5: Mean and Standard Deviation
+           
+           int[] marks = {74, 43, 58, 60, 90, 64, 70};
+           int sum22 = 0;
+           int sumSq = 0;
+           double mean, stdDev;
 
+           // Compute sum and square-sum using loop
+           for (int i = 0; i < marks.length; ++i) {
+               sum22 += marks[i];
+               sumSq += marks[i] * marks[i];
+           }
+           mean = (double)sum22 / marks.length;
+           stdDev = Math.sqrt((double)sumSq / marks.length - mean * mean);
+
+           // Print results
+           System.out.printf("Mean is: %.2f%n", mean);
+           System.out.printf("Standard deviation is: %.2f%n", stdDev);
+           
+//           Example 6: Insert an Element at the end of an Array in 
+//           Java
+           
+           int z, element;
+           int[] arr = new int[11];
+           Scanner results = new Scanner(System.in);
+           
+           System.out.print("Enter 10 Elements: ");
+           for(z=0; z<10; z++)
+              arr[z] = results.nextInt();
+           
+           System.out.print("Enter an Element to Insert: ");
+           element = results.nextInt();
+           arr[z] = element;
+           
+           System.out.println("\nNow the new array is: ");
+           for(z=0; z<11; z++)
+              System.out.print(arr[z]+ " ");
 
 	}
 
