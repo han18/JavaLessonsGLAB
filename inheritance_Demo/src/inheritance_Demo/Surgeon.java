@@ -1,10 +1,7 @@
-package inheritance_Demo;
-
-public class Surgeon {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public class Surgeon extends Doctor {
+   void Surgeon_Details() {
+       System.out.println("Surgeon  Detail...");
+       System.out.println(Department = "Cardio");
+   }
 }
+
