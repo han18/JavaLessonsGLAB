@@ -1,6 +1,6 @@
 public class myRunner {
    public static void main(String[] args) {
-       Circle c = new Circle(100);
+       Circle c = new Circle(100, 0);
        System.out.println("Area of Circle " + c.getArea());
 
        // Example of Object type casting
