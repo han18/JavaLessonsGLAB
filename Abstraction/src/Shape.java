@@ -22,7 +22,7 @@ public abstract class Shape {
 
 // The getArea method is abstract.
    // It must be overridden in a subclass.
-   /** All shapes must provide a method called getArea() */.
+   /** All shapes must provide a method called getArea() */
    public abstract double getArea();
    /** Returns a self-descriptive string */
 
